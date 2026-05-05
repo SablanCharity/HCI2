@@ -1,0 +1,173 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: #e5e8f5;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;   
+}
+
+header {
+    padding: 1.5rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e4f0;
+    font-family: 'DM Serif Display', serif;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 2rem 4rem;;
+}
+
+.container {
+    max-width: 580px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2.5rem, 7vw, 4rem);
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+h1 em {
+    font-style: normal;
+    color: #3a5fcf;
+}
+
+.sub {
+    font-size: 1rem;
+    color: #8890b0;
+    margin-top: 0.75rem;
+    max-width: 440px;
+    line-height: 1.7;
+    margin: 0 auto 2rem;
+    
+}
+
+.action {
+    display: inline-block;
+    padding: 1rem 2.75rem;
+    background: #3a5fcf;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    min-width: 240px;   
+    margin-bottom: 2rem; 
+}
+
+.action:hover { 
+    background: #2a48a8; 
+}
+
+.form {
+    background: #ffffff;
+    border: 1px solid #e2e4f0;
+    border-radius: 12px;
+    padding: 1.75rem;
+    max-width: 380px;
+    margin: 8rem auto;
+    display: none;
+    text-align: left;
+}
+
+.form:target {
+    display: block;
+}
+
+.form h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 1.25rem;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.8rem;
+    color: #4a5070;
+}
+
+.field input {
+    width: 92.5%;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #e2e4f0;
+    border-radius: 6px;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+}
+
+.field select {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #e2e4f0;
+    border-radius: 6px;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+}
+
+.submit {
+    display: block;
+    text-decoration: none;
+    background: #3a5fcf;
+    color: #ffffff;
+    padding: 0.75rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.field input:focus, .field select:focus {
+    border-color: #3a5fcf;
+}
+
+.submit:hover { 
+    background: #2a48a8; 
+}
+
+.close {
+    display: block;
+    margin-top: 0.75rem;
+    text-decoration: none;
+    color: #8890b0;
+    text-align: center;
+    background: #f5f6fa;
+    border: 1px solid #e2e4f0;
+    border-radius: 5px;
+    padding: 0.75rem;
+}
+
+.close:hover { 
+    background: #e2e4f0;
+}
+
+.registered {
+    display: none;
+    text-align: center;
+}
+
+.registered h3 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.registered p {
+    font-size: 1rem;
+    color: #4a5070;
+    margin-top: 0.5rem;
+}
+
+.registered:target {
+    display: block;
+}
